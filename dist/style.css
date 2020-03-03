@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  overflow-y: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main > div {
+  flex: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: Kalam, Arial, Helvetica, sans-serif;
+}
+
+#demo-panel h1 {
+  background: lightgreen;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#text-panel {
+  overflow-y: auto;
+  height: calc(100vh - 15px);
+}
+
+a, a:link {
+  color: black;
+  text-decoration: none;
+  background-position-y: -0%;
+  background-image: linear-gradient( white 50%, lightgreen 50%);
+  transition: background 300ms ease;
+  background-size: 2px;
+  background-size: auto 175%;
+}
+
+a:hover {
+  background-position-y: 100%;
+}
+
+.simplebar-scrollbar:before {
+  background: lightgreen;
+}
