@@ -21,6 +21,6 @@
     "esm": "^3.2.25",
     "node-elm-compiler": "^5.0.4",
     "showdown": "^1.9.1",
-    "terser": "^4.6.4"
+    "terser": "^4.8.1"
   }
 }
